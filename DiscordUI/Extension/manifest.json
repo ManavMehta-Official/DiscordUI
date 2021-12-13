@@ -1,0 +1,64 @@
+{
+    "name": "DiscordUI",
+    "description": "Change Entrar's them to Discord UI!",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "background":{
+        "service_worker":"background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://entrar.in/login/login"], 
+            "js": ["background.js"],
+            "css" : ["login.css"]
+        },
+        {
+          "matches": ["https://entrar.in/"], 
+          "js": ["background.js"],
+          "css" : ["inject.css"]
+        },
+        {
+            "matches": ["https://entrar.in/pp_announcement/announcement/*"], 
+            "js": ["background.js"],
+            "css" : ["announcements.css"]
+        },
+        {
+            "matches": ["https://entrar.in/classroom_creation_crm_new/s_display"], 
+            "js": ["background.js"],
+            "css" : ["online_classes.css"]
+        },
+        {
+            "matches": ["https://entrar.in/pp_assignment/classassignment/*", "https://entrar.in/pp_news_letter/news_letter", "https://entrar.in/online_exam_result_new/index", "https://entrar.in/online_exam_result_new/result_list"], 
+            "js": ["background.js"],
+            "css" : ["assignments.css"]
+        },
+        {
+            "matches": ["https://entrar.in/*"], 
+            "js": ["background.js"],
+            "css" : ["main.css"]
+        },
+        {
+            "matches": ["https://entrar.in/parent_portal/school_info/*", "https://entrar.in/parent_portal/myprofile", "https://entrar.in/parent_portal/parent_details/*", "https://entrar.in/pp_entrar_forms/entrar_forms", "https://entrar.in/fee_student_feeledger_razor_routes_new/index"], 
+            "js": ["background.js"],
+            "css" : ["misc.css"]
+        },
+        {
+            "matches": ["https://entrar.in/parent_portal/Contacts"], 
+            "js": ["background.js"],
+            "css" : ["contact.css"]
+        }
+    ],
+    "action" : {
+        "default_popup": "popup.html"
+        },
+    "permissions": ["activeTab", "declarativeContent", "storage", "scripting"],
+    "host_permissions": [
+        "https://entrar.in/*"
+    ],
+    "icons": {
+    "16": "logo.png",
+    "32": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+    }
+}

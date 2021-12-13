@@ -1,0 +1,169 @@
+/*
+    inject.css overrides the styling of entrar user interface.
+    Entrar uses a library called bootstrap because of which certain styling cant be applied unless [!imporatnt] is used to override the styling.
+
+    Color Chart: 
+        Server Channel color: #2C2F33
+        Chat Body color: #36393f
+        Discord Action color: rgb(78, 90, 240)
+        Discord Success color: rgb(52, 155, 83)
+
+*/
+
+body{
+    overflow: hidden;
+}
+
+li a span .pcoded-mtext{
+    display: none !important;
+}
+
+.pcoded-hasmenu ul li{
+    background-color: #2F3136 !important;
+}
+
+.pcoded-hasmenu ul li a::before{
+    display: none;
+}
+
+.pcoded-hasmenu ul li a::after{
+    color: rgb(78, 90, 240) !important;
+}
+
+* {
+    box-shadow: none !important;
+}
+
+.pcoded-micon{
+    color: white !important;
+    font-size: 3rem !important;
+    margin-bottom: 5% !important;
+}
+
+.f-left{
+    color: white !important;
+}
+
+.mCS_img_loaded{
+    color: white !important;
+}
+
+.pcoded-micon img{
+    background-color: rgb(78, 90, 240) !important;
+    border-radius: 100rem !important;
+    color: white !important;
+    font-size: 2rem !important;
+    padding: 10% !important;
+    margin-bottom: 2% !important;
+}
+
+a::after{
+    display: none !important;
+}
+
+.pcoded-mtext{
+    padding: 2% 4% !important;
+    background-color: #36393f !important;
+    border-radius: 0.8rem;
+    margin-right: 1% !important;
+    margin-left: 1% !important;
+    font-weight: bold !important;
+}
+
+#student_header{
+    padding: 0;
+}
+
+h3 span{
+    color: rgb(250, 250, 250) !important;
+}
+
+.dashboardheading{
+    font-weight: bold;
+    font-size: 1.2rem !important;
+}
+
+.announce{
+    background: #fe8c00 !important;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f83600, #fe8c00) !important;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f83600, #fe8c00) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-top: 5%;
+    border-radius: 0.8rem;
+    padding: 5% 0;
+}
+
+
+.assign{
+    background: #56CCF2 !important;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2) !important;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F80ED, #56CCF2) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 0.8rem;
+    padding: 5% 0;
+    margin-top: 5%;
+}
+
+*{
+    text-decoration: none !important;
+}
+
+.box-inner-container{
+    padding: 1% 2%;
+    background-color: #2F3136;
+    border-radius: 0.8rem;
+}
+
+.news{
+    background: #11998e !important;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e) !important;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-top: 5%;
+    padding: 5% 0;
+    margin-bottom: 5%;
+    text-decoration: none;
+    border-radius: 0.8rem;
+}
+
+.class{
+    background: #FC466B !important;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B) !important;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3F5EFB, #FC466B) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 0.8rem;
+    margin-top: 5%;
+    padding: 5% 0;
+    margin-bottom: 5%;
+    text-decoration: none;
+}
+
+.card-title{
+    font-size: 2.2rem;
+    color: white;
+    text-decoration: none;
+}
+
+
+.card-link{
+    color: white;
+    text-decoration: none;
+}
+
+.card-link:hover{
+    color: white;
+}
+
+.welcome{
+    width: 40%;
+}
+
+.box-container{
+    padding: 5% 10%;
+}
+
+.box-container a{
+    color: white;
+    text-decoration: none;
+}
+
+.box-container a:hover{
+    color: white;
+    text-decoration: none;
+}

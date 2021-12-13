@@ -1,0 +1,73 @@
+/*
+    This CSS file is used to change the User Interface of Login Page.
+*/
+
+html{
+    overflow: hidden;
+}
+
+body{
+    background-color: #2C2F33 !important;
+    box-shadow: 0 19px 38px rgba(59, 57, 57, 0.678), 0 15px 12px rgba(26, 25, 25, 0.74) !important;
+    font-family: 'PT Sans', sans-serif !important;
+}
+
+.col-md-8{
+    background-color:#36393f !important;
+    min-width: 100vh !important;
+    min-height: 100vh !important;
+    border: none !important;
+    padding: 5% !important;
+}
+
+h5{
+    margin-bottom: 15% !important;
+    margin-top: 5% !important;
+}
+
+input{
+    border-radius: 0.4rem !important;
+    background-color: #36393f !important;
+}
+
+.txt1 .txt2 u{
+    text-decoration: none;
+    display: none !important;
+}
+
+.txt1 .txt2 u:hover{
+    color: #7289DA;
+    transition: 0s ease-in-out;
+}
+
+button{
+    background-color: rgb(52, 155, 83) !important;
+    border-radius: 0.4rem !important;
+}
+
+p {
+    display: none;
+}
+
+#siteseal{
+    display: none;
+}
+
+.open-disc{
+    font-size: 1.1rem;
+    padding: 1% 2%;
+    margin-left: 60%;;
+    background-color: rgb(56, 69, 234);
+    border-radius: 0.4rem;
+    color: white;
+}
+
+.open-disc:hover{
+    color: white;
+}
+
+.hero{
+    border-radius: 2rem;
+    margin-left: 10%;
+    margin-top: 10%;
+}

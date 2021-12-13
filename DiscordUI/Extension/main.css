@@ -1,0 +1,95 @@
+/*
+    General styling for the whole Entrar [Source styling]
+*/
+
+.page-wrapper .card .card-block{
+    background-color: #2C2F33;
+    color: white;
+} 
+
+
+.page-body .card .card-header{
+    background-color: #36393f;
+}
+
+.pcoded-inner-content{
+    min-height: 100vh !important;
+}
+
+* {
+    box-shadow: none !important;
+}
+
+* p table td th tr{
+    color: white;
+}
+
+.pcoded-micon{
+    color: white !important;
+    font-size: 3rem !important;
+    margin-bottom: 5% !important;
+}
+
+.f-left{
+    color: white !important;
+}
+
+.mCS_img_loaded{
+    color: white !important;
+}
+
+a::after{
+    display: none !important;
+}
+
+
+.pcoded-inner-content{
+    padding: 1% 1% !important;
+}
+
+.pcoded-micon img{
+    background-color: rgb(78, 90, 240) !important;
+    border-radius: 100rem !important;
+    color: white !important;
+    font-size: 2rem !important;
+    padding: 10% !important;
+    margin-bottom: 2% !important;
+}
+
+.pcoded-mtext{
+    padding: 2% 4% !important;
+    background-color: #36393f !important;
+    border-radius: 0.8rem;
+    margin-right: 1% !important;
+    margin-left: 1% !important;
+    font-weight: bold !important;
+}
+
+h3 span{
+    color: rgb(250, 250, 250) !important;
+}
+
+
+.page-wrapper .card .card-block .breadcrumb-header h5{
+    color: white;
+}
+
+.page-wrapper .card .card-block a{
+    color: white !important;
+}
+
+.page-wrapper table tbody tr td .text-wrap{
+    color: white;
+}
+
+.pcoded-hasmenu ul li{
+    background-color: #2F3136 !important;
+}
+
+.pcoded-hasmenu ul li a::before{
+    display: none;
+}
+
+.pcoded-hasmenu ul li a::after{
+    color: rgb(78, 90, 240) !important;
+}

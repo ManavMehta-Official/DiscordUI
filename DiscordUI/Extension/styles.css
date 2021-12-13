@@ -1,0 +1,49 @@
+/*
+    CSS fot DiscordUI Popup html.
+*/
+
+body{
+    background-color: #2F3136 !important;
+    padding: 5%;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.title{
+    font-size: 3.6rem;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+.website-link{
+    background-color: rgb(52, 155, 83);
+    color: white;
+    font-size: 1.5rem;
+    padding: 1% 2%;
+    border-radius: 0.4rem;
+}
+
+.report-bug{
+    background-color: rgb(247, 96, 54);
+    color: white;
+    font-size: 1.5rem;
+    padding: 1% 2%;
+    border-radius: 0.4rem;
+}
+
+.button{
+    text-decoration: none;
+    font-weight: 200;
+}
+
+.buttons{
+    margin-top: 10%;
+}
+
+.button:hover{
+    color: white;
+}
+
+.logo{
+    width: 25%;
+}

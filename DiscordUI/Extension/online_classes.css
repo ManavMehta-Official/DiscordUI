@@ -1,0 +1,21 @@
+/*
+    This CSS file is used to change the User Interface of Online Clasroom.
+*/
+
+.form-group .col-sm-12 input {
+    background-color: #2C2F33;
+    border: none;
+    color: white !important;
+}
+
+* td{
+    color: white !important;
+}
+
+p{
+    color: white !important;
+}
+
+* th{
+    background-color: rgb(78, 90, 240) !important;
+}

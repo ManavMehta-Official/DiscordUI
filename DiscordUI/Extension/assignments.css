@@ -1,0 +1,39 @@
+/*
+    This CSS file is used to change the User Interface of Assignments.
+*/
+
+*{
+    color: white;
+}
+
+* {
+    box-shadow: none !important;
+}
+
+* th {
+    background-color: rgb(78, 90, 240) !important;
+}
+
+
+
+.page-wrapper .card .card-block{
+    background-color: #2C2F33;
+    color: white;
+} 
+
+.page-body .card .card-header{
+    background-color: #36393f;
+}
+
+.page-wrapper .card .card-block .breadcrumb-header h5{
+    color: white;
+}
+
+.page-wrapper .card .card-block a{
+    color: white !important;
+}
+
+.page-wrapper table tbody tr td .text-wrap{
+    color: white;
+}
+
